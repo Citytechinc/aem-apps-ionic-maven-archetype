@@ -21,49 +21,17 @@
         <module>${rootArtifactId}-ui</module>
     </modules>
 
-    <!--  Maven Repos need to be looked at to see what should be included in here -->
     <repositories>
-        <repository>
-            <id>localinstance</id>
-            <name>AEM localinstance</name>
-            <url>http://localhost:4502/maven/repository</url>
-            <releases>
-                <enabled>true</enabled>
-            </releases>
-            <snapshots>
-                <enabled>true</enabled>
-            </snapshots>
-        </repository>
         <repository>
             <id>citytech-public</id>
             <url>http://nexus.citytech.ctmsp.com/content/groups/public</url>
-        </repository>
-        <repository>
-            <id>citytech-private</id>
-            <url>http://nexus.citytech.ctmsp.com/content/groups/CITYTECH-Private/</url>
         </repository>
     </repositories>
 
-    <!--  Plugin Repos need to be looked at to see what should be included in here -->
     <pluginRepositories>
-        <pluginRepository>
-            <id>localinstance</id>
-            <name>AEM localinstance</name>
-            <url>http://localhost:4502/maven/repository</url>
-            <releases>
-                <enabled>true</enabled>
-            </releases>
-            <snapshots>
-                <enabled>true</enabled>
-            </snapshots>
-        </pluginRepository>
         <pluginRepository>
             <id>citytech-public</id>
             <url>http://nexus.citytech.ctmsp.com/content/groups/public</url>
-        </pluginRepository>
-        <pluginRepository>
-            <id>citytech-private</id>
-            <url>http://nexus.citytech.ctmsp.com/content/groups/CITYTECH-Private/</url>
         </pluginRepository>
     </pluginRepositories>
 
@@ -73,7 +41,7 @@
         <!-- versions -->
         <bedrock.version>4.0.3</bedrock.version>
         <component.plugin.version>4.0.0</component.plugin.version>
-        <ionicapps.version>1.0.0-SNAPSHOT</ionicapps.version>
+        <ionicapps.version>0.5.0-SNAPSHOT</ionicapps.version>
         <adobe.aem.apps.library.version>6.0.49-NPR-4558-R008</adobe.aem.apps.library.version>
 
         <!-- defaults -->
@@ -156,17 +124,17 @@
 
             <!-- Ionic AEM Apps -->
             <dependency>
-                <groupId>com.icfi.aem.apps.ionic</groupId>
+                <groupId>com.citytechinc.aem.apps.ionic</groupId>
                 <artifactId>ionic-aem-apps-api</artifactId>
                 <version>${ionicapps.version}</version>
             </dependency>
             <dependency>
-                <groupId>com.icfi.aem.apps.ionic</groupId>
+                <groupId>com.citytechinc.aem.apps.ionic</groupId>
                 <artifactId>ionic-aem-apps-core</artifactId>
                 <version>${ionicapps.version}</version>
             </dependency>
             <dependency>
-                <groupId>com.icfi.aem.apps.ionic</groupId>
+                <groupId>com.citytechinc.aem.apps.ionic</groupId>
                 <artifactId>ionic-aem-apps-ui</artifactId>
                 <version>${ionicapps.version}</version>
                 <type>zip</type>
