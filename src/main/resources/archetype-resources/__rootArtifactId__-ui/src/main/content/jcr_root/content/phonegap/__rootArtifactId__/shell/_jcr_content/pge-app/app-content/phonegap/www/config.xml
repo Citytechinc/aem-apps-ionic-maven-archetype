@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.icfi.circuit" version="0.0.1"
+        xmlns="http://www.w3.org/ns/widgets"
+        xmlns:gap   = "http://phonegap.com/ns/1.0">
+    <name>${clientPrettyName}</name>
+
+    <description>
+        ${clientPrettyName} Application
+    </description>
+
+    <content src="content/phonegap/${rootArtifactId}/en/content-sync.html" />
+
+    <preference name="phonegap-version" value="cli-5.2.0" />
+    <preference name="Orientation" value="portrait" />
+
+    <!-- blackberry -->
+    <icon src="icon.png"/>
+    <access origin="*"/>
+
+    <!-- All Plugins are to be specified here -->
+    <plugin name="cordova-plugin-splashscreen" spec="3.0.0" />
+    <plugin name="phonegap-plugin-contentsync" spec="1.1.12"  />
+    <plugin name="cordova-plugin-whitelist" spec="1.0.0" />
+    <plugin name="cordova-plugin-file-transfer" spec="1.0.0"/>
+
+    <preference name="AutoHideSplashScreen" value="false" />
+    <preference name="ShowSplashScreenSpinner" value="true"/>
+
+    <!-- File preferences -->
+    <preference name="iosPersistentFileLocation" value="Library" />
+    <preference name="AndroidPersistentFileLocation" value="Internal" />
+
+    <access origin="*" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <allow-intent href="tel:*" />
+    <allow-intent href="sms:*" />
+    <allow-intent href="mailto:*" />
+    <allow-intent href="geo:*" />
+
+</widget>

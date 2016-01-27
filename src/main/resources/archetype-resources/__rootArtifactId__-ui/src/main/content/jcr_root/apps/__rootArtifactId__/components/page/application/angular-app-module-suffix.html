@@ -1,0 +1,14 @@
+#set( $symbol_dollar = '$' )
+<sly data-sly-include="set-content-type.jsp"></sly>
+<sly data-sly-use.application="${package}.components.page.application.Application">
+    angular.module( '${symbol_dollar}{application.applicationRoot.applicationName}' )
+    .run( function( ${symbol_dollar}ionicPlatform ) {
+
+        ${symbol_dollar}ionicPlatform.ready(function() {
+            window.setTimeout(function () {
+            navigator.splashscreen.hide();
+            }, 1000);
+        });
+
+    });
+</sly>

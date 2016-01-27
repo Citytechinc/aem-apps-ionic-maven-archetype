@@ -1,0 +1,4 @@
+#set( $symbol_dollar = '$' )
+<script data-sly-test="${symbol_dollar}{isIonicAemAppMode}" data-sly-use.application="${package}.components.page.application.Application" type="text/javascript" src="${symbol_dollar}{application.applicationRootPath}.applicationConstants.js"></script>
+<sly data-sly-use.clientLib="${'/libs/granite/sightly/templates/clientlib.html'}"
+     data-sly-call="${symbol_dollar}{clientLib.css @ categories='${rootArtifactId}.all'}" />
