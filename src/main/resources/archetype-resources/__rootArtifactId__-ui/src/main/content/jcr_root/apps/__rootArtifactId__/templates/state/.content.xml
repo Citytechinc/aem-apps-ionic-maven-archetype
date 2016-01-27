@@ -10,5 +10,5 @@
           ranking="10">
     <jcr:content
             jcr:primaryType="cq:PageContent"
-            sling:resourceType="${rootArtifactId}/components/page/state" />
+            sling:resourceType="${rootArtifactId}/components/page/application-state" />
 </jcr:root>

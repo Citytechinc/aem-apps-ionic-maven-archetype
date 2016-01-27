@@ -184,7 +184,7 @@
 
         <!-- Ionic AEM Apps -->
         <dependency>
-            <groupId>com.icfi.aem.apps.ionic</groupId>
+            <groupId>com.citytechinc.aem.apps.ionic</groupId>
             <artifactId>ionic-aem-apps-api</artifactId>
         </dependency>
 
