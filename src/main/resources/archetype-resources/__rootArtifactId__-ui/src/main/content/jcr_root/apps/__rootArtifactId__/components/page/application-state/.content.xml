@@ -4,6 +4,4 @@
           xmlns:jcr="http://www.jcp.org/jcr/1.0"
           cq:isContainer="{Boolean}false"
           jcr:primaryType="cq:Component"
-          requiredAngularModules="[citytechinc.circuit.app.controllers.dynamicheader]"
-          angularController="DynamicHeaderCtrl"
           sling:resourceSuperType="ionic-aem-apps/components/page/application-state" />

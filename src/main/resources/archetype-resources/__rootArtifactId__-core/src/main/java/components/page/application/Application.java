@@ -1,5 +1,6 @@
 package ${package}.components.page.application;
 
+import com.citytechinc.aem.apps.ionic.api.models.application.root.ApplicationRoot;
 import com.citytechinc.aem.bedrock.api.page.PageDecorator;
 import com.citytechinc.aem.bedrock.core.components.AbstractComponent;
 import org.apache.sling.api.resource.Resource;
@@ -13,6 +14,10 @@ public class Application extends AbstractComponent {
 
     @Inject
     private PageDecorator currentPage;
+
+    public ApplicationRoot getApplicationRoot() {
+        return currentPage.adaptTo(ApplicationRoot.class);
+    }
 
     public String getApplicationRootPath() {
         return currentPage.getName();
