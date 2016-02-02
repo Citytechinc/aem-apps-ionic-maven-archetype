@@ -7,7 +7,7 @@
             cq:lastModifiedBy="admin"
             jcr:primaryType="cq:PageContent"
             jcr:title="${clientPrettyName} App English"
-            sling:resourceType="${rootArtifactId}/components/page/content-sync-root"
+            sling:resourceType="wcm/foundation/components/page"
             pge-type="[app-content]"
             phonegap-exportTemplate="/content/phonegap/${rootArtifactId}/en/jcr:content/pge-app/app-config">
         <pge-app jcr:primaryType="nt:unstructured">

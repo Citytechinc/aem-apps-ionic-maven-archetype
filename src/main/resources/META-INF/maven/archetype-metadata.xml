@@ -47,6 +47,12 @@
                         <include>**/*.js</include>
                     </includes>
                 </fileSet>
+                <fileSet filtered="false" encoding="UTF-8">
+                    <directory>src/main/content</directory>
+                    <includes>
+                        <include>**/*.png</include>
+                    </includes>
+                </fileSet>
             </fileSets>
         </module>
     </modules>

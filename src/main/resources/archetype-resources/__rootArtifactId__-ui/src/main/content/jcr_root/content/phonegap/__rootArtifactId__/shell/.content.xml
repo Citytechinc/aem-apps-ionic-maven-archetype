@@ -7,10 +7,10 @@
             cq:lastModifiedBy="admin"
             jcr:primaryType="cq:PageContent"
             jcr:title="${clientPrettyName} App Shell"
-            sling:resourceType="${rootArtifactId}/components/page/splash-page"
+            sling:resourceType="wcm/foundation/components/page"
             pge-type="[app-instance]"
-            phonegap-build-exportTemplate="/content/phonegap/${rootArtifactId}/shell/jcr:content/pge-app/BasicAEMApp"
-            phonegap-build-exportTemplate-dev="/content/phonegap/${rootArtifactId}/shell/jcr:content/pge-app/BasicAEMApp-dev"
+            phonegap-build-exportTemplate="/content/phonegap/${rootArtifactId}/shell/jcr:content/pge-app/IonicAEMApp"
+            phonegap-build-exportTemplate-dev="/content/phonegap/${rootArtifactId}/shell/jcr:content/pge-app/IonicAEMApp-dev"
             phonegap-exportTemplate="/content/phonegap/${rootArtifactId}/shell/jcr:content/pge-app/app-config">
         <image
                 jcr:lastModified="{Date}2015-07-10T16:49:51.263-04:00"
@@ -25,8 +25,8 @@
             </app-content>
             <app-config/>
             <app-config-dev/>
-            <BasicAEMApp/>
-            <BasicAEMApp-dev/>
+            <IonicAEMApp/>
+            <IonicAEMApp-dev/>
         </pge-app>
         <screenshots
                 jcr:primaryType="nt:unstructured"
