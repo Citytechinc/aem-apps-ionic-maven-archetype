@@ -11,7 +11,7 @@
         ${clientPrettyName} Application
     </description>
 
-    <content src="content/phonegap/ground-beef-taco/en/content-sync.html" />
+    <content src="content/phonegap/${rootArtifactId}/en/content-sync.html" />
 
     <preference name="phonegap-version" value="cli-5.2.0" />
     <preference name="Orientation" value="portrait" />
