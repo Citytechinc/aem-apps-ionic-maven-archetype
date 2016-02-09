@@ -5,13 +5,12 @@
 <workspaceFilter version="1.0">
 	<filter root="/content/phonegap/${rootArtifactId}">
         <!-- TODO: How much of the app content should be deployed as part of the code base? -->
-        <exclude pattern="/content/phonegap/${rootArtifactId}/en/home(/.*)?" />
+        <exclude pattern="/content/phonegap/${rootArtifactId}/en/application(/.*)?" />
     </filter>
     <filter root="/apps/${rootArtifactId}" />
     <filter root="/etc/designs/${rootArtifactId}">
         <exclude pattern="/etc/designs/${rootArtifactId}/jcr:content(/.*)?"/>
     </filter>
-    <filter root="/etc/packages/bedrock/bedrock-ui-${bedrock.version}.zip"/>
     <filter root="/etc/clientlibs/${rootArtifactId}"/>
     <filter root="/etc/packages/ionic-aem-apps"/>
 

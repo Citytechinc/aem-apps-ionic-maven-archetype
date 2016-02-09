@@ -30,15 +30,6 @@
     </fileSets>
     <dependencySets>
         <dependencySet>
-            <outputDirectory>jcr_root/etc/packages/bedrock</outputDirectory>
-            <useProjectArtifact>false</useProjectArtifact>
-            <scope>compile</scope>
-            <includes>
-                <include>com.citytechinc.aem.bedrock:bedrock-ui:zip</include>
-            </includes>
-            <useStrictFiltering>true</useStrictFiltering>
-        </dependencySet>
-        <dependencySet>
             <outputDirectory>jcr_root/etc/packages/ionic-aem-apps</outputDirectory>
             <useProjectArtifact>false</useProjectArtifact>
             <scope>compile</scope>
