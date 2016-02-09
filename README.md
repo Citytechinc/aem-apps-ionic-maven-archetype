@@ -6,7 +6,7 @@ using the [Ionic AEM Apps Library](https://github.com/Citytechinc/ionic-aem-apps
 ## Usage
 
 ```
-mvn archetype:generate -DarchetypeGroupId=com.citytechinc.aem.apps.ionic -DarchetypeArtifactId=aem-apps-ionic-maven-archetype -DarchetypeVersion=0.1.0-SNAPSHOT -DgroupId=com.client.package -DartifactId=project-name -DclientPrettyName="Project Name" -Dversion=1.0.0-SNAPSHOT -DinteractiveMode=false
+mvn archetype:generate -DarchetypeGroupId=com.citytechinc.aem.apps.ionic -DarchetypeArtifactId=aem-apps-ionic-maven-archetype -DarchetypeVersion=0.1.0 -DgroupId=com.client.package -DartifactId=project-name -DclientPrettyName="Project Name" -Dversion=1.0.0-SNAPSHOT -DinteractiveMode=false
 ```
 
 ## Version Information
