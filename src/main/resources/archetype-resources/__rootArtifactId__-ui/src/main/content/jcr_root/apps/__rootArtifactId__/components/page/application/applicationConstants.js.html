@@ -1,0 +1,5 @@
+<sly data-sly-include="set-content-type.jsp"></sly>
+<sly data-sly-use.applicationRoot="${package}.components.page.application.Application">
+    angular.module( '${package}.constants', [] )
+    .value( 'applicationRoot', '${applicationRoot.applicationRootPath}' );
+</sly>
