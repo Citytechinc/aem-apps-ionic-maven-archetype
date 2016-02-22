@@ -45,6 +45,7 @@
                         <include>**/*.html</include>
                         <include>**/*.xml</include>
                         <include>**/*.js</include>
+                        <include>**/*.txt</include>
                     </includes>
                 </fileSet>
                 <fileSet filtered="false" encoding="UTF-8">
