@@ -4,7 +4,7 @@
           xmlns:jcr="http://www.jcp.org/jcr/1.0"
           jcr:primaryType="cq:Template"
           jcr:title="${clientPrettyName} App - Application Root"
-          allowedPaths="/content/phonegap/${rootArtifactId}/en"
+          allowedPaths="/content/mobileapps/${rootArtifactId}/en"
           allowedChildren="[/apps/${rootArtifactId}/templates/state]"
           ranking="0">
     <jcr:content

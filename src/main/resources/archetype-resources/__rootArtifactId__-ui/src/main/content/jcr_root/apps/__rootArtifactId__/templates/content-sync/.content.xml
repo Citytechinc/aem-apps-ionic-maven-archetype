@@ -4,7 +4,7 @@
           xmlns:jcr="http://www.jcp.org/jcr/1.0"
           jcr:primaryType="cq:Template"
           jcr:title="${clientPrettyName} App - Content Sync"
-          allowedPaths="/content/phonegap/${rootArtifactId}/en"
+          allowedPaths="/content/mobileapps/${rootArtifactId}/en"
           allowedChildren="[/apps/${rootArtifactId}/templates/application-root]"
           ranking="10">
     <jcr:content

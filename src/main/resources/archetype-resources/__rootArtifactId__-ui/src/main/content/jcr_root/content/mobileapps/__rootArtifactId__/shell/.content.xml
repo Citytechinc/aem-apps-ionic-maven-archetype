@@ -9,9 +9,9 @@
             jcr:title="${clientPrettyName} App Shell"
             sling:resourceType="wcm/foundation/components/page"
             pge-type="[app-instance]"
-            phonegap-build-exportTemplate="/content/phonegap/${rootArtifactId}/shell/jcr:content/pge-app/IonicAEMApp"
-            phonegap-build-exportTemplate-dev="/content/phonegap/${rootArtifactId}/shell/jcr:content/pge-app/IonicAEMApp-dev"
-            phonegap-exportTemplate="/content/phonegap/${rootArtifactId}/shell/jcr:content/pge-app/app-config">
+            phonegap-build-exportTemplate="/content/mobileapps/${rootArtifactId}/shell/jcr:content/pge-app/IonicAEMApp"
+            phonegap-build-exportTemplate-dev="/content/mobileapps/${rootArtifactId}/shell/jcr:content/pge-app/IonicAEMApp-dev"
+            phonegap-exportTemplate="/content/mobileapps/${rootArtifactId}/shell/jcr:content/pge-app/app-config">
         <image
                 jcr:lastModified="{Date}2015-07-10T16:49:51.263-04:00"
                 jcr:lastModifiedBy="admin"

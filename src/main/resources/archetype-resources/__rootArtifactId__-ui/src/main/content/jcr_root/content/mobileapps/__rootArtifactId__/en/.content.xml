@@ -9,7 +9,7 @@
             jcr:title="${clientPrettyName} App English"
             sling:resourceType="wcm/foundation/components/page"
             pge-type="[app-content]"
-            phonegap-exportTemplate="/content/phonegap/${rootArtifactId}/en/jcr:content/pge-app/app-config">
+            phonegap-exportTemplate="/content/mobileapps/${rootArtifactId}/en/jcr:content/pge-app/app-config">
         <pge-app jcr:primaryType="nt:unstructured">
             <app-config/>
         </pge-app>

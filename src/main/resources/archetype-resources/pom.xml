@@ -4,9 +4,9 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 
     <parent>
-        <groupId>com.citytechinc.aem.bedrock</groupId>
-        <artifactId>bedrock</artifactId>
-        <version>4.0.3</version>
+        <groupId>com.icfolson.aem.library</groupId>
+        <artifactId>aem-library</artifactId>
+        <version>7.0.0-SNAPSHOT</version>
     </parent>
 
     <modelVersion>4.0.0</modelVersion>
@@ -39,9 +39,9 @@
         <core.artifactId>${rootArtifactId}-core</core.artifactId>
 
         <!-- versions -->
-        <bedrock.version>4.0.3</bedrock.version>
+        <aem-library.version>7.0.0-SNAPSHOT</aem-library.version>
         <component.plugin.version>4.0.0</component.plugin.version>
-        <ionicapps.version>0.5.0-SNAPSHOT</ionicapps.version>
+        <ionicapps.version>0.7.0-SNAPSHOT</ionicapps.version>
         <adobe.aem.apps.library.version>6.0.49-NPR-4558-R008</adobe.aem.apps.library.version>
 
         <!-- defaults -->
@@ -99,24 +99,24 @@
     <dependencyManagement>
         <dependencies>
             <dependency>
-                <groupId>com.citytechinc.aem.bedrock</groupId>
-                <artifactId>bedrock-core</artifactId>
-                <version>${bedrock.version}</version>
+                <groupId>com.icfolson.aem.library</groupId>
+                <artifactId>aem-library-core</artifactId>
+                <version>${aem-library.version}</version>
             </dependency>
             <dependency>
-                <groupId>com.citytechinc.aem.bedrock</groupId>
-                <artifactId>bedrock-api</artifactId>
-                <version>${bedrock.version}</version>
+                <groupId>com.icfolson.aem.library</groupId>
+                <artifactId>aem-library-api</artifactId>
+                <version>${aem-library.version}</version>
             </dependency>
             <dependency>
-                <groupId>com.citytechinc.aem.bedrock</groupId>
-                <artifactId>bedrock-models</artifactId>
-                <version>${bedrock.version}</version>
+                <groupId>com.icfolson.aem.library</groupId>
+                <artifactId>aem-library-models</artifactId>
+                <version>${aem-library.version}</version>
             </dependency>
             <dependency>
-                <groupId>com.citytechinc.aem.bedrock</groupId>
-                <artifactId>bedrock-ui</artifactId>
-                <version>${bedrock.version}</version>
+                <groupId>com.icfolson.aem.library</groupId>
+                <artifactId>aem-library-ui</artifactId>
+                <version>${aem-library.version}</version>
                 <type>zip</type>
             </dependency>
 
@@ -151,6 +151,7 @@
             </dependency>
 
             <!-- AEM Apps Libraries -->
+            <!-- TODO: Determine if this is needed -->
             <dependency>
                 <groupId>com.adobe.cq.mobile</groupId>
                 <artifactId>cq-mobile-phonegap-wcm-core</artifactId>
