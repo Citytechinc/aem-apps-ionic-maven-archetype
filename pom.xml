@@ -6,7 +6,7 @@
     <packaging>jar</packaging>
     <version>0.1.0</version>
     <name>aem-apps-ionic-maven-archetype</name>
-  <description>Archetype generating a multi module AEM project, initial content, and contentsync configuration appropriate for an AEM Apps project.</description>
+    <description>Archetype generating a multi module AEM project, initial content, and contentsync configuration appropriate for an AEM Apps project.</description>
 
   <organization>
     <name>ICF | Olson</name>
@@ -102,6 +102,5 @@
       </plugin>
     </plugins>
   </build>
-
 </project>
 
