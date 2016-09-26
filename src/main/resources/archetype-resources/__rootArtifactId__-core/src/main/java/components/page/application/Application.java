@@ -1,8 +1,8 @@
 package ${package}.components.page.application;
 
 import com.citytechinc.aem.apps.ionic.api.models.application.root.ApplicationRoot;
-import com.citytechinc.aem.bedrock.api.page.PageDecorator;
-import com.citytechinc.aem.bedrock.core.components.AbstractComponent;
+import com.icfolson.aem.library.api.page.PageDecorator;
+import com.icfolson.aem.library.core.components.AbstractComponent;
 import org.apache.sling.api.resource.Resource;
 import org.apache.sling.models.annotations.Model;
 import javax.inject.Inject;

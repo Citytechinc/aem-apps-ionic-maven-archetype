@@ -3,9 +3,8 @@
 #set( $symbol_escape = '\' )
 <?xml version="1.0" encoding="UTF-8"?>
 <workspaceFilter version="1.0">
-	<filter root="/content/phonegap/${rootArtifactId}">
-        <!-- TODO: How much of the app content should be deployed as part of the code base? -->
-        <exclude pattern="/content/phonegap/${rootArtifactId}/en/application(/.*)?" />
+	<filter root="/content/mobileapps/${rootArtifactId}">
+        <exclude pattern="/content/mobileapps/${rootArtifactId}/en/application(/.*)?" />
     </filter>
     <filter root="/apps/${rootArtifactId}" />
     <filter root="/etc/designs/${rootArtifactId}">
