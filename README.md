@@ -1,7 +1,7 @@
 # AEM Apps Ionic Maven Archetype
 
 Generates a multi-module AEM project, initial content, and contentsync configuration appropriate for an AEM Apps project 
-using the [Ionic AEM Apps Library](https://github.com/Citytechinc/ionic-aem-apps).
+using the [Ionic AEM Apps Library](https://github.com/OlsonDigital/ionic-aem-apps).
 
 ## Usage
 
